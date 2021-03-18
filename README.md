@@ -1,1 +1,1 @@
-# SmarCAM_Test
+# SmartCAM_Test
