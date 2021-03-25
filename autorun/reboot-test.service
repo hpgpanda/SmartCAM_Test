@@ -1,0 +1,7 @@
+[Unit]
+Description=This reboot-test.sh will run at startup
+After=multi-user.target
+[Service]
+ExecStart=/root/reboot-test.sh
+[Install]
+WantedBy=multi-user.target

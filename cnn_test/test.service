@@ -1,0 +1,7 @@
+[Unit]
+Description=This test-edge.sh will run at startup
+After=multi-user.target
+[Service]
+ExecStart=/root/test-edge.sh
+[Install]
+WantedBy=multi-user.target

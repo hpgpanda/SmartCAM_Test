@@ -1,0 +1,4 @@
+先systemctl mask autorun_welcome.service
+将自启动服务屏蔽掉，重启运行以上脚本，测试0144和316
+测试结束后systemctl unmask autorun_welcome.service
+再将自启动服务开启
